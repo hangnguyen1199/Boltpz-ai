@@ -91,11 +91,13 @@
             object-position: right;
         }
         .tech-item .text {
-            max-width: 550px;
+            max-width: 545px;
             top: 5px;
+            width: 100%;
         }
         .tech-item .text2 {
             right: 230px;
+            width: 100%;
         }
         .tech-item .text p {
             margin: 17px 0px 23px 26px;
@@ -214,7 +216,7 @@
             width: 138% !important;
         }
         .image img {
-            width: 80%;
+            width: 68%;
             height: 84%;
         }
         .tech-item .text {
@@ -277,6 +279,7 @@
         .inner {
             flex-direction: column;
             padding: 0;
+            width: 100%;
         }
         .inner-text {
             margin: 18px 0px;
