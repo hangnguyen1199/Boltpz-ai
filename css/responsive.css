@@ -1,0 +1,332 @@
+    @media screen and (max-width: 1280px) {
+        .intro_browser {
+            width: 50%;
+            height: 65%;
+        }
+        .title p {
+            font-size: 44px;
+        }
+        .about-text .text-item p {
+            font-size: 15px;
+        }
+        .team-textbox {
+            flex-wrap: wrap;
+        }
+        .team-textbox h3 {
+            min-width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .team {
+            padding-left: 104px;
+        }
+        .name-team {
+            top: 70px;
+        }
+        .team-list {
+            text-align: center;
+            margin: 26px;
+        }
+        .all-list {
+            padding-left: 271px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .carousel-indicators {
+            top: 347px;
+        }
+        .carousel-btt {
+            position: absolute;
+            top: 37px;
+            right: 20px;
+            width: 120px;
+        }
+        .tech-item .image {
+            margin-left: 7px;
+        }
+        .new-img img {
+            width: 78%;
+        }
+        .item-slide {
+            width: 78%;
+        }
+    }
+    
+    @media (min-width: 767px) and (max-width: 1024px) {
+        .intro_browser {
+            width: 580px;
+            height: 523px;
+            left: 138px;
+        }
+        .intro_content {
+            width: 670px;
+            left: 35px;
+        }
+        .title p {
+            font-size: 40px;
+        }
+        .about-content {
+            width: 134%;
+            height: auto;
+        }
+        .about-text,
+        .tech-item {
+            flex-direction: column;
+        }
+        .learn {
+            margin-top: -10px;
+        }
+        .tech-item {
+            margin-top: 65px;
+        }
+        .tech-item .image {
+            width: 100%;
+            height: auto;
+            margin-left: 27px;
+        }
+        .tech-item .image>img {
+            width: 300% !important;
+            height: 100%;
+            object-fit: cover;
+            object-position: right;
+        }
+        .tech-item .text {
+            max-width: 550px;
+            top: 5px;
+        }
+        .tech-item .text2 {
+            right: 230px;
+        }
+        .tech-item .text p {
+            margin: 17px 0px 23px 26px;
+        }
+        .tech-item .text h4 {
+            margin: 25px -103px 4px 26px;
+        }
+        .text {
+            order: 2;
+        }
+        .team {
+            padding-left: 0px;
+        }
+        .name-team {
+            min-width: 100%;
+            text-align: center;
+            margin-bottom: 90px;
+            margin-top: -90px;
+        }
+        .all-list {
+            padding-left: 0;
+        }
+        .inner {
+            flex-direction: column;
+        }
+        .inner-text {
+            max-width: 100%;
+            width: 100%;
+        }
+        .inner-slide {
+            margin-left: 18px;
+        }
+        .carousel-btt {
+            top: 37px;
+        }
+        .carousel-indicators {
+            margin-left: 26%;
+        }
+        .new-img {
+            width: 128%;
+            height: 279px;
+        }
+        .copy {
+            padding-left: 70px;
+        }
+        .contact {
+            flex-direction: column;
+            margin: 20px 133px 20px -5px;
+        }
+        .partner-content {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+        .menu {
+            left: -11px;
+        }
+        .intro_content {
+            width: 292px;
+            left: 7px;
+        }
+        .title p {
+            font-size: 30px;
+        }
+        .subtitle {
+            font-size: 17px;
+        }
+        .intro_browser {
+            width: 100% !important;
+            height: 601px;
+            left: 0;
+            right: 0;
+            top: 130px;
+        }
+        .about {
+            width: 100%;
+        }
+        .item {
+            display: none;
+        }
+        .topic h3,
+        .about-text .text-item p {
+            padding: 0;
+        }
+        .topic-text {
+            margin-top: 43px;
+        }
+        .about-text {
+            flex-direction: column;
+        }
+        .ab-button {
+            display: flex;
+        }
+        .ab-button i {
+            padding: 10px;
+            color: #f0f0f0;
+            transition: transform 0.5s;
+        }
+        .tech-title p {
+            font-size: 35px;
+        }
+        .list {
+            width: 100%;
+        }
+        .tech-item {
+            flex-direction: column;
+            margin-top: -70px;
+        }
+        .text {
+            order: 2;
+        }
+        .image2 {
+            left: -18px;
+            width: 138% !important;
+        }
+        .image img {
+            width: 80%;
+            height: 84%;
+        }
+        .tech-item .text {
+            top: -94px;
+        }
+        .tech-item .text h4 {
+            margin: 41px 0px 15px 0px;
+            font-size: 27px;
+        }
+        .tech-item .text p {
+            margin: 17px 0px 23px 0px;
+        }
+        .text2 {
+            margin-left: 0px !important;
+        }
+        .text2>image>img {
+            margin-left: -19px;
+        }
+        .text2 h4 {
+            margin: 23px 0px 23px 0px !important;
+        }
+        .box {
+            padding: 15px;
+        }
+        .new-btt {
+            position: inherit;
+            margin-top: 20px;
+        }
+        .partner {
+            padding-top: 0;
+        }
+        .partner-content {
+            width: 100%;
+            margin-left: 0%;
+        }
+        .part-list {
+            margin-right: -9px;
+        }
+        .part-list div img {
+            width: 100%;
+            object-fit: contain;
+            height: 50px;
+            /* left: 10px; */
+            margin-left: -43px;
+        }
+        .name-team {
+            top: 100px;
+            text-align: center;
+            margin-bottom: 120px;
+        }
+        .team {
+            padding: 0px !important;
+        }
+        .all-list {
+            padding-left: 0px;
+        }
+        .testimonials {
+            padding: 60px 0px;
+        }
+        .inner {
+            flex-direction: column;
+            padding: 0;
+        }
+        .inner-text {
+            margin: 18px 0px;
+        }
+        .inner-slide {
+            margin-left: 10px;
+        }
+        .carousel-btt {
+            top: 90px;
+            right: 49px;
+        }
+        .carousel-indicators li {
+            left: -120px;
+        }
+        .news {
+            padding: 0;
+        }
+        .new-img img {
+            width: 94%;
+            height: 100%;
+        }
+        .new-text {
+            padding: 0px 15px;
+        }
+        .footer-content {
+            flex-direction: column
+        }
+        .ft-get {
+            text-align: center;
+        }
+        .ft-left {
+            text-align: center;
+            margin-bottom: 49px;
+        }
+        .ft-contact {
+            padding: 35px 50px;
+        }
+        .contact {
+            margin: 20px 0px 20px -5px;
+        }
+        .copy {
+            padding-left: 0;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+        .carousel-indicators {
+            margin-top: 105px;
+            margin-left: 37px;
+        }
+        #myBtn {
+            margin-right: -24px;
+        }
+    }
