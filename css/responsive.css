@@ -211,12 +211,14 @@
         .text {
             order: 2;
         }
+        .image1 {
+            width: 95% !important;
+        }
         .image2 {
             left: -18px;
-            width: 138% !important;
+            width: 95% !important;
         }
         .image img {
-            width: 68%;
             height: 84%;
         }
         .tech-item .text {
